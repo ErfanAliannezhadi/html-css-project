@@ -1,0 +1,40 @@
+#navbar {
+    flex-direction: column;
+}
+
+#navbar h1 {
+    margin-bottom: 10px;
+}
+
+#section1 .items {
+    flex-direction: column;
+    padding: 15px;
+}
+
+#section1 {
+    height: 100%;
+}
+
+#section2 {
+    flex-direction: column;
+    height: 1000px;
+}
+
+#section2 .div1 {
+    height: 300px;
+    width: 100%;
+}
+
+#section3 {
+    height: 1200px;
+}
+
+#section3 div div {
+    display: flex;
+    flex-direction: column;
+}
+
+#section4 {
+    padding-right: 10px;
+    padding-left: 10px;
+}

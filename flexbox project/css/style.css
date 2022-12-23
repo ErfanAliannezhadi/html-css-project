@@ -1,0 +1,270 @@
+@font-face {
+    font-family: 'Vazir';
+    src: url('../fonts/Vazir.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/Vazir.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/Vazir.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/Vazir.woff') format('woff'),
+        /* Pretty Modern Browsers */
+        url('../fonts/Vazir.ttf') format('truetype');
+    /* Safari, Android, iOS */
+}
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* main styles */
+
+html,
+body {
+    font-family: 'Vazir';
+    line-height: 1.4;
+}
+
+a {
+    text-decoration: none;
+}
+
+#navbar {
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    position: sticky;
+    top: 0;
+}
+
+#navbar a {
+    color: white;
+}
+
+#navbar ul li a {
+    padding: 10px 15px;
+}
+
+#navbar ul li a:hover {
+    background-color: orange;
+    border-radius: 5px;
+}
+
+#navbar h1 span {
+    color: orange;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    flex-direction: row-reverse;
+}
+
+#showcase {
+    background: url('../img/showcase.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#showcase p {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#showcase h1,
+#showcase p,
+#showcase a {
+    margin: 50px;
+}
+
+#showcase h1 {
+    font-size: 40px;
+    margin: 50px;
+}
+
+#showcase a {
+    background-color: orange;
+    border-radius: 5px;
+    color: white;
+    padding: 8px 35px;
+}
+
+
+#showcase a:hover {
+    background-color: white;
+    color: orange;
+}
+
+#section1 {
+    background-color: #f4f4f4;
+    color: #333;
+    height: 300px;
+}
+
+#section1 div {
+    max-width: 1100px;
+    margin: auto;
+    text-align: center;
+}
+
+#section1 div h2 {
+    padding: 30px;
+}
+
+#section1 .items {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+}
+
+#section1 .items .item {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+#section1 .items .item h4,
+#section1 .items .item p {
+    padding: 10px;
+}
+
+#section1 .items .item p {
+    text-align: right;
+}
+
+#section1 .items .item i {
+    background: orange;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+#section2 {
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+}
+
+#section2 div {
+    flex: 1;
+}
+
+#section2 .div1 {
+    background: url('../img/section2.jpg') no-repeat center center/cover;
+}
+
+#section2 .div2 {
+    text-align: right;
+    padding: 30px;
+    background-color: #333;
+    color: white;
+}
+
+#section2 .div2 ul {
+    list-style: none;
+    margin: 9px;
+}
+
+#section2 .div2 h2 {
+    margin: 25px;
+}
+
+#section2 .div2 p {
+    margin-bottom: 20px;
+}
+
+#section2 .div2 ul li {
+    margin-bottom: 20px;
+}
+
+#section2 .div2 h3 {
+    margin-bottom: 20px;
+}
+
+#section3 {
+    background-color: #f4f4f4;
+    color: #333;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+#section3 div {
+    max-width: 1100px;
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+}
+
+
+#section3 div div {
+    display: flex;
+    flex-direction: row;
+}
+
+#section3 div div div {
+    height: 200px;
+    width: 200px;
+}
+
+#section3 div div div img {
+    border-radius: 50%;
+}
+
+#section4 div {
+    max-width: 600px;
+    text-align: right;
+    margin: auto;
+    padding-top: 30px;
+}
+
+#section4 div form label {
+    display: block;
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+#section4 div form input, #section4 div form textarea {
+    width: 100%;
+    padding: 10px;
+}
+
+#section4 div form button {
+    margin-top: 10px;
+    padding: 8px 30px;
+    border-radius: 5px;
+    color: #333;
+    background-color: orange;
+    border-style: none;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+#section4 div form button:hover {
+    background-color: #333;
+    color: orange;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+}
+
+footer div {
+    margin: 30px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
